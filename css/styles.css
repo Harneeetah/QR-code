@@ -1,0 +1,54 @@
+.main{width: 700px; /* Set the width as needed */
+  height: auto; /* Set the height as needed */
+  background-color: rgb(200, 226, 235); /* Background color of the outer container */
+  position: relative; /* Needed for positioning the overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Puts the overlay behind the inner container */
+
+}
+p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: black ;
+}
+
+h1{
+    font-size: 20px;
+     text-align: center; 
+     color: black;
+}
+.attribution 
+{ font-size: 10px;
+  color: black;  
+  text-align: center; }
+
+
+img{
+    max-width: 100%;
+    max-height: auto;
+    border-radius: 10px;
+}
+
+.qr {
+    background-color: white;
+    border: 2px solid black;
+    margin: auto;
+    padding: 20px;
+    height: 400;
+    width: 300px;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative ;
+  }  
+  
+  
